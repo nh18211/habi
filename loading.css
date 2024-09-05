@@ -117,3 +117,16 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #b11, #b22, #b33, #b44, #b55, #b66, #b77 {
+      top: auto;
+      left: auto;
+      position: relative;
+      margin: 0 auto;
+      display: block;
+      width: 100%; /* Make the balloons take up the entire width on mobile */
+      height: auto;
+      text-align: center;
+  }
+}
